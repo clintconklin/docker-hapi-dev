@@ -1,0 +1,17 @@
+{
+  "name": "docker-hapi-test",
+  "version": "0.0.1",
+  "description": "hapi node test for docker",
+  "main": "index.js",
+  "scripts": {
+	"test": "echo \"Error: no test specified\" && exit 1",
+	"start": "gulp"
+  },
+  "author": "Clint Conklin <clint@creativengine.com>",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "gulp": "^3.9.1",
+    "gulp-nodemon": "^2.2.1",
+    "hapi": "^16.1.0"
+  }
+}
