@@ -9,7 +9,7 @@ server.route({
     'method': 'GET',
     'path': '/',
     'handler': function (request, reply) {
-        reply('<h1>Hi from node</h1><p>Reverse-proxied from apache, and oh btw THRU FRICKIN\' DOCKER YO!!!</p>');
+        reply('<h1>This Is A Reverse Proxy Situation</h1><p>Greetings. This page is served from node via a reverse-proxied apache.</p>');
     }
 });
 
